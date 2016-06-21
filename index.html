@@ -45,7 +45,7 @@ published: true
               <div class="card-block">
                 <h4 class="card-title">Nuevo a la Viña Palmares?</h4>
                 <p class="card-text">Aprende mas quienes somos y nuestros valores.</p>
-                <a href="/quienes-somos" class="btn btn-primary"> Acerca de Nosotros</a>
+                <a href="{{ "/quienes-somos" | prepend: site.baseurl}}" class="btn btn-primary"> Acerca de Nosotros</a>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ published: true
               <div class="card-block">
                 <h4 class="card-title">Toma el proximo paso</h4>
                 <p class="card-text">Averigua sobre los grupos de apoyo y ministerios.</p>
-                <a href="#" class="btn btn-primary "> Unete a un Grupo</a>
+                <a href="{{ "ministerios.html" | prepend: site.baseurl}}" class="btn btn-primary "> Unete a un Grupo</a>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ published: true
               <div class="card-block">
                 <h4 class="card-title">Ayúdanos a construir</h4>
                 <p class="card-text">¡Ya iniciamos¡ Únete a nuestro esfuerzo.</p>
-                <a href="/donaciones" class="btn  btn-primary">  Se parte de este sueño.</a>
+                <a href="{{"/donaciones" | prepend: site.baseurl}}" class="btn  btn-primary">  Se parte de este sueño.</a>
               </div>
             </div>
 

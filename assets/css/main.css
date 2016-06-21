@@ -28,7 +28,11 @@ header.navbar{
       border-color: #8FA844;
     color: rgba(255, 255, 255, 0.8) !important;}
   
+navbar-toggler{
+      color: white;
+    margin-top: .5rem;
 
+}
 
 .home{
   background:#faf8f0;

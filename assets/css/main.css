@@ -84,8 +84,9 @@ h5{
     margin-left: 10px;
     margin-right: 40px;
   }
+// Our variables
 
-.bd-footer{
+footer{
   background: #383838;
   font-size: 14px;
   color: white;

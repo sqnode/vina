@@ -1,0 +1,241 @@
+
+
+@charset "utf-8";
+.flickity-page-dots{
+  bottom:25px;
+}
+
+
+header.navbar{
+  background: #413e3b;
+}
+header {
+  .nav-pills .nav-link, .nav-tabs .nav-link{
+    color:white;
+  }
+  .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover {
+      border-color: #8FA844;
+      color: rgba(255, 255, 255, 0.68);
+  }
+}
+
+.home{
+  background:#faf8f0;
+}
+
+.nav.nav-tabs{
+  float:right;
+  margin-right: 30px;
+}
+.subsection{
+  background: #5e9858;
+  background: -moz-linear-gradient(45deg,  #b9be56 0%, #5e9858 100%);
+  background: -webkit-linear-gradient(45deg,  #b9be56 0%,#5e9858 100%);
+  background: linear-gradient(45deg,  #b9be56 0%,#5e9858 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9be56', endColorstr='#5e9858',GradientType=1 );
+
+color:white;
+padding: 30px 15px;
+}
+
+h5{
+  margin-bottom: 12px;
+}
+
+.card h4.card-title {
+    /* font-size: 1.5rem; */
+    /* font-weight: 300; */
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1rem;
+    color: #404B50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: rgba(0,0,0,.12) rgba(0,0,0,.12) #E6B43C;
+}
+
+
+.list-group-item{
+      border-bottom: 1px solid #ECECEC;
+}
+
+#ministerio-tabs{
+  background:white;
+  padding:48px;
+}
+
+.top-p{
+  max-width: 800px;
+  margin: auto;
+}
+.section{
+  padding-top: 32px;
+}
+.navbar {
+   margin-bottom:0;
+   padding: 0;
+  }
+
+  .navbar-brand{
+    padding-top: 10px;
+margin-left: 10px;
+margin-right: 40px;
+  }
+// Our variables
+.bd-footer{
+  background: #383838;
+  font-size: 14px;
+  color: white;
+  padding: 48px;
+  margin-top: 48px;
+
+}
+
+.bd-footer p{
+  color: white;
+}
+
+.navbar-nav .nav-link{
+    font-size: 14px;
+        font-weight: 500;
+}
+
+.signature{
+  font-family: 'Courgette', cursive;
+    margin-top: 3rem;
+    font-size: 0.999rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0;
+  font-size: 2.618rem;
+  line-height: 2.618rem;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+h2 em {
+  font-family: 'Courgette', cursive;
+  font-size: 4rem;
+  letter-spacing: -.25rem;
+  font-weight: normal;
+  text-transform: none;
+  font-style: normal;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 540px;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size:1.414em;
+  line-height: 42px normal !important;
+  font-family: 'Montserrat', sans-serif;
+  color:#404B50;
+}
+
+h3 em{
+  font-weight: 800;
+  font-weight: normal;
+  text-transform: none;
+  font-style: normal;
+}
+
+p em{
+  font-family: 'Courgette', cursive;
+font-size: 1.618rem;
+/* letter-spacing: -.2rem; */
+font-weight: normal;
+text-transform: none;
+font-style: normal;
+}
+
+
+.btn.btn-primary {
+  border-left: 2px solid #a2c74a;
+}
+
+
+.btn.btn-primary.active, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary:focus, .btn.btn-primary:hover, .open>.btn.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #A2C74A;
+}
+
+/* smaller, dark, rounded square */
+.flickity-prev-next-button {
+  width: 30px;
+  height: 40px;
+  border-radius: 0px;
+  background: #333;
+}
+.flickity-prev-next-button:hover {
+  background: #F90;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: 0px;
+}
+.flickity-prev-next-button.next {
+  right: 0px;
+}
+
+.gallery-cell, .flickity-slider{
+  width: 100%;
+}
+
+
+h3{
+  color:#6D6D6D;
+}
+.subheader{
+  text-transform: uppercase;
+line-height: 2.8rem;
+color: #C2925B;
+}
+
+@media screen and ( max-width: 767px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { height: 360px;    padding:30px ; }
+  .carousel-cell h2{
+        font-size: 2rem;
+  }
+
+
+
+}
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { height: 640px;    padding:92px 92px 92px ; }
+
+}
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}

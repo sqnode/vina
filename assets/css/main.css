@@ -9,7 +9,7 @@
 header.navbar{
   background: #413e3b;
 }
-header {
+ 
   .nav-pills .nav-link, .nav-tabs .nav-link{
     color:white;
   }
@@ -17,7 +17,7 @@ header {
       border-color: #8FA844;
       color: rgba(255, 255, 255, 0.68);
   }
-}
+
 
 .home{
   background:#faf8f0;

@@ -1,6 +1,7 @@
 ---
 layout: default
 menu: Inicio
+published: true
 ---
 <style media="screen">
 
@@ -8,7 +9,7 @@ menu: Inicio
 
 <div class="home">
   <div class="carousel js-flickity" data-flickity-options='{ "cellAlign": "center", "contain":"true", "percentPosition": false,  "wrapAround": "true", "imagesLoaded": "true", "setGallerySize":"false", "autoPlay": "3000" }'>
-    <div class="carousel-cell   text-xs-center" style="background:url('/assets/i/h1.jpg')  no-repeat center center;
+    <div class="carousel-cell   text-xs-center" style="background:url('{{ "/assets/i/h1.jpg" | prepend: site.baseurl}}')  no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,7 +41,7 @@ menu: Inicio
 
 
             <div class="card">
-              <img class="card-img-top img-fluid" src="/assets/i/hc1.jpg" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="{{ "/assets/i/hc1.jpg" | prepend: site.baseurl}}" alt="Card image cap">
               <div class="card-block">
                 <h4 class="card-title">Nuevo a la Viña Palmares?</h4>
                 <p class="card-text">Aprende mas quienes somos y nuestros valores.</p>

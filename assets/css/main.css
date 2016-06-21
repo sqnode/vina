@@ -1,8 +1,19 @@
-
-
 @charset "utf-8";
 .flickity-page-dots{
   bottom:25px;
+}
+
+footer{
+  background: #383838;
+  font-size: 14px;
+  color: white;
+  padding: 48px;
+  margin-top: 48px;
+
+}
+
+footer p{
+  color: white;
 }
 
 
@@ -86,18 +97,6 @@ h5{
   }
 // Our variables
 
-footer{
-  background: #383838;
-  font-size: 14px;
-  color: white;
-  padding: 48px;
-  margin-top: 48px;
-
-}
-
-footer p{
-  color: white;
-}
 
 .navbar-nav .nav-link{
     font-size: 14px;

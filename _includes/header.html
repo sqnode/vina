@@ -16,7 +16,7 @@
         <li class="nav-item">
 
 
-          <a class="nav-link {% if page.url == '/quienes-somos.html' %} active{% endif %}" href="/quienes-somos.html">Quienes Somos</a>
+          <a class="nav-link {% if page.url == '/quienes-somos.html' %} active{% endif %}" href="{{ "/quienes-somos.html" | prepend: site.baseurl}}">Quienes Somos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link  {% if page.url == '/ministerios.html' %} active{% endif %}" href="/ministerios.html">Ministerios</a>

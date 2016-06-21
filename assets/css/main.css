@@ -3,7 +3,7 @@
   bottom:25px;
 }
 
-footer{
+.bd-footer{
   background: #383838;
   font-size: 14px;
   color: white;
@@ -12,7 +12,7 @@ footer{
 
 }
 
-footer p{
+.bd-footer p{
   color: white;
 }
 
@@ -225,6 +225,3 @@ color: #C2925B;
   .carousel-cell { height: 640px;    padding:92px 92px 92px ; }
 
 }
-
-
-
